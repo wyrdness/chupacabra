@@ -1,247 +1,126 @@
 {
-  "category": "CRYPTID",
-
   "meta": {
     "version": "1.0.0",
     "schema_version": "1.0.0",
-    "last_updated": "2025-12-15",
+    "last_updated": "2026-02-13",
     "repository": "https://github.com/wyrdness/chupacabra",
-    "maintainers": [{"name": "Wyrdness Team", "github": "wyrdness", "role": "maintainer"}],
-    "license": {"data": "CC0-1.0", "content": "CC-BY-4.0"}
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
   },
   "phenomenon": {
     "id": "chupacabra",
     "name": "Chupacabra",
-    "aliases": [
-      {"name": "El Chupacabra", "language": "Spanish", "meaning": "The Goat-Sucker"},
-      {"name": "Goat Sucker", "language": "English", "meaning": "Direct translation"},
-      {"name": "Chupacabras", "language": "Spanish (plural)", "meaning": "Multiple goat-suckers"}
+    "aliases": [],
+    "category": "|_CRYPTID_|",
+    "subcategory": "| Description | Status |",
+    "tags": [
+      "folklore",
+      "mythology"
     ],
-    "category": "CRYPTID",
-    "subcategory": "Bloodsucking Creature",
-    "tags": ["cryptid", "bloodsucker", "livestock-predator", "puerto-rico", "latin-america", "reptilian", "canine", "1990s"],
-    "status": "active",
+    "status": "documented",
     "description": {
-      "summary": "A legendary creature from Latin American folklore, first reported in Puerto Rico in 1995. Known for allegedly attacking livestock and draining their blood through small puncture wounds.",
-      "full": "The Chupacabra (Spanish for 'goat-sucker') is a cryptid that emerged in Puerto Rico in 1995 and quickly spread through Latin America and the southern United States. The creature is blamed for attacks on livestock, particularly goats, sheep, and chickens, which are found dead with puncture wounds and allegedly drained of blood. Two distinct forms are reported: the original Puerto Rican version described as a bipedal reptilian creature with spines, and the Texan/Mexican version resembling a hairless canine. The phenomenon has been attributed to various causes including wild dogs with mange, coyotes, and mass hysteria following the original 1995 reports."
+      "summary": "The Chupacabra (Spanish for \\\"goat-sucker\\\") is a cryptid that emerged in Puerto Rico in 1995 and quickly spread through Latin America and the southern United States.",
+      "full": "The Chupacabra (Spanish for \\\"goat-sucker\\\") is a cryptid that emerged in Puerto Rico in 1995 and quickly spread through Latin America and the southern United States. The creature is blamed for attacks on livestock, particularly goats, sheep, and chickens, which are found dead with puncture wounds and allegedly drained of blood. Two distinct forms are reported: the original Puerto Rican version described as a bipedal reptilian creature with spines, and the Texan/Mexican version resembling a hairless canine. The phenomenon has been attributed to various causes including wild dogs with mange, coyotes, and mass hysteria following the original 1995 reports."
     },
     "etymology": {
-      "origin": "Spanish compound word: 'chupar' (to suck) + 'cabra' (goat)",
-      "meaning": "Goat-sucker, referring to its alleged method of killing livestock",
-      "first_use": "1995, Puerto Rico"
+      "origin": "Unknown",
+      "meaning": "To be documented",
+      "first_use": "Unknown"
     }
   },
   "classification": {
     "taxonomy": {
-      "category": "CRYPTID",
-      "type": "Bloodsucking Creature",
-      "subtype": "Livestock Predator",
-      "variant": "Puerto Rican (reptilian) / Continental (canine)"
+      "category": "|_CRYPTID_|",
+      "type": "| Description | Status |",
+      "subtype": "Unknown",
+      "variant": "Unknown"
     },
-    "related_phenomena": [
-      {"id": "vampires", "name": "Vampires", "relationship": "similar", "description": "Blood-drinking entities in folklore"},
-      {"id": "aliens", "name": "Aliens", "relationship": "related", "description": "Some theories link Chupacabra to extraterrestrials"},
-      {"id": "el-vampiro-de-moca", "name": "El Vampiro de Moca", "relationship": "precursor", "description": "1975 Puerto Rico livestock attacks"}
-    ]
+    "related_phenomena": []
   },
   "characteristics": {
     "physical": {
-      "height": {"min": 0.9, "max": 1.5, "unit": "meters", "confidence": "low"},
-      "weight": {"min": 18, "max": 45, "unit": "kilograms", "confidence": "low"},
-      "coloration": ["gray", "greenish-gray", "blue-gray", "dark brown"],
-      "features": [
-        {"feature": "Spines/Quills", "description": "Row of spines or quills running down the back (Puerto Rican variant)", "frequency": "common"},
-        {"feature": "Large eyes", "description": "Oversized, sometimes glowing red or black eyes", "frequency": "common"},
-        {"feature": "Fangs", "description": "Prominent canine teeth or fangs for blood extraction", "frequency": "always"},
-        {"feature": "Clawed limbs", "description": "Sharp claws on hands/feet", "frequency": "common"},
-        {"feature": "Hairless body", "description": "Leathery or scaly skin, particularly in canine variant", "frequency": "common"},
-        {"feature": "Bipedal/Quadrupedal", "description": "Can move on two or four legs depending on variant", "frequency": "variable"}
-      ],
-      "morphology": "Two distinct morphological types are reported. The original Puerto Rican variant is described as a bipedal reptilian creature, approximately 3-4 feet tall, with grayish-green skin, large oval eyes, sharp fangs, and a row of spines from head to tail. The continental American variant resembles a hairless dog or coyote with pronounced fangs, elongated snout, and visible spine ridges due to emaciation."
+      "features": [],
+      "morphology": "See README.md for detailed physical description"
     },
-    "abilities": [
-      {"ability": "Blood extraction", "description": "Drains blood through small puncture wounds without significant external damage", "frequency": "always", "evidence_level": "reported"},
-      {"ability": "Jumping/Leaping", "description": "Can leap great distances (Puerto Rican variant)", "frequency": "common", "evidence_level": "reported"},
-      {"ability": "Speed", "description": "Extremely fast movement", "frequency": "common", "evidence_level": "reported"},
-      {"ability": "Nocturnal hunting", "description": "Primarily active at night", "frequency": "always", "evidence_level": "reported"},
-      {"ability": "Sulfuric odor", "description": "Leaves behind a sulfur-like smell", "frequency": "occasional", "evidence_level": "reported"}
-    ],
+    "abilities": [],
     "behavior": {
-      "activity_period": "nocturnal",
-      "disposition": "aggressive",
-      "social_structure": "solitary",
-      "habitat_preference": ["rural areas", "farms", "livestock enclosures", "arid regions"],
-      "patterns": ["Targets livestock over humans", "Attacks multiple animals in single night", "Precise wound patterns", "Leaves carcasses largely intact"]
+      "activity_period": "unknown",
+      "disposition": "unknown",
+      "habitat_preference": []
     }
   },
   "distribution": {
     "range": {
-      "description": "Originally reported in Puerto Rico, spreading through Latin America and southern United States. Reports now span from Chile to Maine.",
-      "continents": ["North America", "South America", "Central America"],
-      "countries": ["Puerto Rico", "United States", "Mexico", "Chile", "Brazil", "Argentina", "Nicaragua", "Guatemala", "El Salvador", "Honduras", "Panama", "Dominican Republic", "Russia", "Philippines"],
-      "regions": ["Caribbean", "Texas", "Florida", "Arizona", "California", "Central America", "South America"]
+      "description": "Unknown",
+      "continents": [],
+      "countries": [],
+      "regions": []
     },
-    "hotspots": [
-      {
-        "name": "Canovanas, Puerto Rico",
-        "location": {"description": "Municipality in northeastern Puerto Rico", "country": "Puerto Rico", "region": "Caribbean", "coordinates": {"latitude": 18.3791, "longitude": -65.9016}},
-        "sighting_count": 150,
-        "peak_period": "1995-1996",
-        "notes": "Epicenter of original Chupacabra wave; Mayor formed official hunting parties"
-      },
-      {
-        "name": "South Texas",
-        "location": {"description": "Texas-Mexico border region", "country": "United States", "region": "Texas"},
-        "sighting_count": 100,
-        "peak_period": "2004-2007",
-        "notes": "Origin of canine-type Chupacabra; multiple carcasses recovered"
-      },
-      {
-        "name": "Calama, Chile",
-        "location": {"description": "City in northern Chile", "country": "Chile", "region": "Antofagasta"},
-        "sighting_count": 50,
-        "peak_period": "2000-2001",
-        "notes": "Major South American outbreak; hundreds of livestock killed"
-      }
-    ],
+    "hotspots": [],
     "temporal": {
-      "first_recorded": {"date": "1995-03", "circa": false, "source": "Madelyne Tolentino sighting, Canovanas, PR"},
-      "peak_activity_periods": [
-        {"period": "1995-1996", "description": "Puerto Rico outbreak; hundreds of reports"},
-        {"period": "2000-2001", "description": "Chile and Latin America wave"},
-        {"period": "2004-2007", "description": "Texas canine-type sightings and carcass discoveries"},
-        {"period": "2010-present", "description": "Sporadic worldwide reports"}
-      ],
-      "seasonal_patterns": "No clear seasonal pattern; outbreaks appear to spread geographically rather than seasonally"
+      "first_recorded": {
+        "date": "Unknown",
+        "circa": true,
+        "source": "Traditional folklore"
+      }
     }
   },
   "history": {
     "origins": {
-      "cultural_roots": "Emerged suddenly in 1995 without clear folklore predecessor. Some researchers note similarity to 1975 'Vampiro de Moca' livestock attacks in Puerto Rico.",
-      "earliest_accounts": "First widely publicized sighting by Madelyne Tolentino in Canovanas, Puerto Rico in August 1995. Earlier 1995 attacks on livestock were retroactively attributed to Chupacabra.",
-      "folklore_connections": "May relate to older Latin American vampire folklore; some theorize connection to alien abduction narratives popular in 1990s Puerto Rico."
+      "cultural_roots": "Unknown",
+      "earliest_accounts": "See README.md for historical details",
+      "folklore_connections": "Unknown"
     },
-    "timeline": [
-      {"date": "1975", "event": "Vampiro de Moca attacks", "significance": "Possible precursor; livestock killed in Moca, PR with similar MO"},
-      {"date": "1995-03", "event": "First livestock attacks", "significance": "Eight sheep found dead in Orocovis, PR with puncture wounds"},
-      {"date": "1995-08", "event": "Tolentino sighting", "significance": "Madelyne Tolentino's description becomes definitive Chupacabra image"},
-      {"date": "1995-11", "event": "Name coined", "significance": "Puerto Rican comedian Silverio Perez coins 'Chupacabra'"},
-      {"date": "1996", "event": "Phenomenon spreads", "significance": "Reports emerge throughout Latin America; media coverage intensifies"},
-      {"date": "2000", "event": "Chile outbreak", "significance": "Massive wave in Chile; official government investigation"},
-      {"date": "2004", "event": "Texas carcass", "significance": "First 'Chupacabra' carcass found in Texas; identified as coyote with mange"},
-      {"date": "2007", "event": "Cuero, Texas specimen", "significance": "Phylis Canion finds hairless canine; DNA testing performed"},
-      {"date": "2010", "event": "Second Texas carcass", "significance": "Hood County specimen; confirmed as coyote-dog hybrid with mange"}
-    ],
-    "modern_era": "The Chupacabra has become a fixture of cryptozoology and Latin American pop culture. Scientific consensus attributes most evidence to coyotes or dogs with sarcoptic mange. The phenomenon continues with sporadic sightings and occasional 'carcass' discoveries that typically prove to be diseased canids. The legend has inspired numerous films, TV shows, and documentaries."
+    "timeline": []
   },
   "sightings": {
     "statistics": {
-      "total_documented": 500,
+      "total_documented": 0,
       "verified": 0,
-      "disputed": 450,
-      "debunked": 40,
-      "date_range": {"earliest": "1995-03", "latest": "2024"}
+      "disputed": 0,
+      "debunked": 0
     },
-    "notable": [
-      {
-        "id": "chupacabra-sighting-1995-tolentino",
-        "name": "Madelyne Tolentino Sighting",
-        "date": {"value": "1995-08", "precision": "month"},
-        "location": {"description": "Canovanas, Puerto Rico", "country": "Puerto Rico", "region": "Caribbean"},
-        "witnesses": {"count": 1, "types": ["Local resident"], "credibility_factors": ["Detailed description", "Multiple interviews"]},
-        "description": "Madelyne Tolentino reported seeing a creature outside her mother's home in Canovanas. She described a bipedal creature approximately 3-4 feet tall with gray skin, large oval black eyes, thin arms with clawed hands, and a row of spines running down its back. This description became the iconic image of the Chupacabra and was widely circulated.",
-        "evidence": ["Witness testimony", "Sketch based on description"],
-        "credibility": {"rating": "medium", "factors": ["Single witness", "Detailed consistent account", "Became definitive description"], "notes": "Some researchers note similarity to creature from film 'Species' (1995) which Tolentino had recently seen"},
-        "featured": true
-      },
-      {
-        "id": "chupacabra-sighting-2007-cuero",
-        "name": "Cuero, Texas Carcass",
-        "date": {"value": "2007-08", "precision": "month"},
-        "location": {"description": "Cuero, Texas", "country": "United States", "region": "Texas", "coordinates": {"latitude": 29.0938, "longitude": -97.2892}},
-        "witnesses": {"count": 1, "types": ["Ranch owner"]},
-        "description": "Phylis Canion discovered a hairless, blue-gray carcass on her ranch. The creature had prominent fangs, large ears, and wrinkled skin. She preserved the head for DNA testing. Results showed the animal was a coyote-dog hybrid, though Canion maintained it was unusual. The story received national media attention.",
-        "evidence": ["Physical specimen", "DNA analysis", "Photographs"],
-        "credibility": {"rating": "high", "factors": ["Physical evidence", "DNA testing performed"], "notes": "DNA confirmed canid; likely coyote with sarcoptic mange"},
-        "featured": true
-      },
-      {
-        "id": "chupacabra-sighting-2000-calama",
-        "name": "Calama, Chile Attacks",
-        "date": {"value": "2000-04", "precision": "month"},
-        "location": {"description": "Calama and surrounding areas, Chile", "country": "Chile", "region": "Antofagasta"},
-        "witnesses": {"count": 100, "types": ["Farmers", "Residents"]},
-        "description": "A major wave of livestock deaths occurred in the Calama area, with hundreds of animals found dead with puncture wounds. Multiple witnesses reported seeing strange creatures. The Chilean government launched an official investigation. Sightings spread throughout Chile and neighboring countries.",
-        "evidence": ["Dead livestock", "Multiple witness accounts", "Government investigation"],
-        "credibility": {"rating": "medium", "factors": ["Mass livestock deaths verified", "Official investigation", "No creature captured"], "notes": "Government attributed deaths to wild dogs; witnesses disputed conclusions"},
-        "featured": true
-      }
-    ],
+    "notable": [],
     "database_path": "./sightings/"
   },
   "evidence": {
-    "physical": [
-      {"id": "chupacabra-evidence-cuero-carcass", "type": "specimen", "name": "Cuero, Texas Carcass (2007)", "description": "Preserved head of hairless canid; DNA tested as coyote-dog hybrid", "status": "explained", "analysis": "Sarcoptic mange in canid"},
-      {"id": "chupacabra-evidence-hood-carcass", "type": "specimen", "name": "Hood County, Texas Carcass (2010)", "description": "Full carcass of hairless animal", "status": "explained", "analysis": "Coyote-dog hybrid with mange"}
-    ],
-    "photographic": [
-      {"id": "chupacabra-evidence-photos", "type": "photographs", "name": "Various alleged Chupacabra photos", "description": "Numerous photographs claiming to show Chupacabra or victims", "status": "disputed"}
-    ],
-    "video": [
-      {"id": "chupacabra-evidence-video-2008", "type": "video", "name": "DeWitt County, Texas video (2008)", "description": "Deputy filmed hairless animal; identified as coyote with mange", "status": "explained"}
-    ],
+    "physical": [],
+    "photographic": [],
+    "video": [],
     "audio": [],
-    "documentary": [
-      {"id": "chupacabra-evidence-livestock", "type": "physical evidence", "name": "Livestock carcasses", "description": "Numerous livestock found dead with puncture wounds across Latin America", "status": "verified", "analysis": "Deaths verified; cause attributed to various predators and conditions by investigators"}
-    ]
+    "trace": []
   },
   "theories": {
-    "paranormal": [
-      {"name": "Extraterrestrial origin", "description": "Chupacabra is an alien creature or genetic experiment", "proponents": ["Jorge Martin", "Various UFO researchers"], "evidence_cited": ["UFO sightings in Puerto Rico during same period", "Unusual physical description", "Lack of prior folklore"]},
-      {"name": "Government experiment", "description": "Escaped or released military/government genetic experiment", "proponents": ["Conspiracy theorists"], "evidence_cited": ["Proximity to former military bases", "Unusual characteristics", "Sudden emergence"]}
-    ],
-    "scientific": [
-      {"name": "Canids with sarcoptic mange", "description": "Hairless coyotes, dogs, or foxes with severe mange appear alien and are misidentified", "proponents": ["Barry OConnor (University of Michigan)", "Wildlife biologists"], "evidence_cited": ["DNA analysis of carcasses", "Mange causes hair loss and skin changes", "Behavioral changes in diseased animals"]},
-      {"name": "Wild dog packs", "description": "Feral dogs attacking livestock; wounds misinterpreted", "proponents": ["Chilean government investigators", "Various scientists"], "evidence_cited": ["Dog attacks common on livestock", "Puncture wounds consistent with canine bites"]},
-      {"name": "Misidentification", "description": "Various known animals misidentified due to poor lighting, fear, or unfamiliarity", "proponents": ["Skeptical investigators"], "evidence_cited": ["Sightings often at night", "Descriptions vary widely", "No specimen of original type ever recovered"]}
-    ],
-    "skeptical": [
-      {"name": "Mass hysteria/Media contagion", "description": "Initial reports amplified by media created pattern of expectation and false sightings", "proponents": ["Benjamin Radford", "Joe Nickell"], "evidence_cited": ["Rapid spread following media coverage", "Varied and inconsistent descriptions", "Tolentino description matches 'Species' alien"]},
-      {"name": "Cultural phenomenon", "description": "Chupacabra emerged from cultural anxieties about Puerto Rican identity, economy, and UFO beliefs", "proponents": ["Lauren Derby", "Cultural anthropologists"], "evidence_cited": ["Timing coincides with economic uncertainty", "Strong UFO belief in Puerto Rico", "Pattern of cryptid emergence in stressed communities"]}
-    ]
+    "paranormal": [],
+    "scientific": [],
+    "skeptical": []
   },
   "cultural": {
     "folklore": {
-      "traditions": ["Modern Latin American cryptid", "Blood-draining monster trope", "Livestock predator legends"],
-      "stories": ["El Vampiro de Moca precursor", "Numerous attack accounts", "Government conspiracy theories"],
-      "beliefs": "The Chupacabra represents modern fears about unknown predators, government secrecy, and the vulnerability of rural communities. Some view it as a genuine unknown creature while others see it as cultural expression of anxiety."
-    },
-    "indigenous": {
-      "cultures": [],
-      "significance": "No documented connection to indigenous traditions; emerged as modern urban legend",
-      "sensitivity_note": "Not associated with indigenous beliefs",
-      "respect_guidelines": "N/A"
+      "traditions": [],
+      "stories": [],
+      "beliefs": "See README.md for cultural context"
     },
     "popular_culture": {
-      "literature": ["Chupacabra: Dark Seas by Roland Smith", "Various cryptozoology books", "Numerous Spanish-language publications"],
-      "film_tv": ["Chupacabra Terror (2005)", "Chupacabra vs. The Alamo (2013)", "The X-Files episode 'El Mundo Gira'", "Grimm TV series", "Various documentaries"],
-      "games": ["Red Dead Redemption: Undead Nightmare", "Various video games"],
-      "other": ["Halloween costumes", "Merchandise", "Tourism in Puerto Rico and Texas", "Countless memes and internet content"]
+      "literature": [],
+      "film_tv": [],
+      "games": [],
+      "other": []
     }
   },
   "research": {
-    "researchers": [
-      {"name": "Benjamin Radford", "affiliation": "Skeptical Inquirer", "contribution": "Five-year investigation; traced origins to Species film influence", "period": "2004-2011"},
-      {"name": "Jorge Martin", "affiliation": "Independent UFO Researcher", "contribution": "Early chronicler of Puerto Rican sightings; paranormal interpretation", "period": "1995-present"},
-      {"name": "Scott Corrales", "affiliation": "Institute of Hispanic Ufology", "contribution": "Documented Latin American sightings and spread of phenomenon", "period": "1996-present"},
-      {"name": "Barry OConnor", "affiliation": "University of Michigan", "contribution": "Identified mange as explanation for Texas carcasses", "period": "2000s"}
-    ],
+    "researchers": [],
     "organizations": [],
-    "ongoing_studies": "Sporadic investigation of new sightings and carcass discoveries. DNA analysis has consistently identified alleged Chupacabra remains as known animals with mange."
+    "ongoing_studies": "None documented"
   },
-  "sources": [
-    {"id": "radford-2011", "type": "book", "title": "Tracking the Chupacabra: The Vampire Beast in Fact, Fiction, and Folklore", "authors": ["Benjamin Radford"], "publication": "University of New Mexico Press", "date": "2011", "isbn": "978-0826350152"},
-    {"id": "corrales-1997", "type": "book", "title": "Chupacabras and Other Mysteries", "authors": ["Scott Corrales"], "publication": "Greenleaf Publications", "date": "1997"},
-    {"id": "derby-2008", "type": "journal", "title": "Imperial Secrets: Vampires and Nationhood in Puerto Rico", "authors": ["Lauren Derby"], "publication": "Past & Present", "date": "2008"}
-  ]
+  "sources": []
 }
